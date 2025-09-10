@@ -1,4 +1,4 @@
-# Cloud Enabled Deployment In Action with AWS
+# Cloud Enabled Deployment In Action with Google Cloud Provider
 
 This repository contains four projects:
 
@@ -10,14 +10,25 @@ This repository contains four projects:
 ## Backend Services
 
 ### 1. course-service
-- Entity: Course(id, name, duration)
-- Endpoints:
-  - GET /courses
-  - GET /courses/{id}
-  - POST /courses
-  - DELETE /courses/{id}
-- Default port: 8081
-- Configure MySQL settings
+- **Entity**: `Course(id, name, duration)`
+- **Endpoints**:
+    - `GET /courses`
+    - `GET /courses/{id}`
+    - `POST /courses`
+    - `DELETE /courses/{id}`
+- **Default port**: `8081`
+
+#### ⚙️ MySQL Configuration
+The service is configured to connect to a MySQL instance hosted on **Google Cloud**.
+
+```properties
+spring.datasource.host=35.184.228.235
+spring.datasource.port=3306
+spring.datasource.url=jdbc:mysql://${spring.datasource.host}:${spring.datasource.port}/eca_courses?createDatabaseIfNotExist=true
+spring.datasource.username=root
+spring.datasource.password=mySql4-ECA
+```
+
 
 ### 2. student-service
 - Document: Student(registrationNumber, fullName, address, contact, email)
