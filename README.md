@@ -61,3 +61,8 @@ spring.datasource.password=mySql4-ECA
 
 - Backend: run `mvn -q -e -DskipTests package` at repo root to build services.
 - Frontend: run `npm install` then `npm run dev` inside `frontend-app`.
+
+## Resources
+
+- Check out how the project works in this demo video:
+https://drive.google.com/file/d/1xbTTMmA8pw5Ne8FOLhmmlyiHBQnXGNw9/view?usp=sharing
