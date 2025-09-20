@@ -1,4 +1,4 @@
-# Cloud Enabled Deployment In Action with Google Cloud Provider
+# Cloud-Enabled Deployment In Action with Google Cloud Provider
 
 This repository contains four projects:
 
@@ -66,3 +66,7 @@ spring.datasource.password=mySql4-ECA
 
 - Check out how the project works in this demo video:
 https://drive.google.com/file/d/1xbTTMmA8pw5Ne8FOLhmmlyiHBQnXGNw9/view?usp=sharing
+
+#### Name - Senumi Minodya
+#### Student Registration Number - 2301671106
+#### Email Address - senumiminodya456@gmail.com
